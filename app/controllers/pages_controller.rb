@@ -1,11 +1,11 @@
 class PagesController < ApplicationController
 
   get '/contact' do
-    "Here is my contact information"
+    erb :'pages/contact'
   end
 
   get'/about' do
-    "About me"
+    erb :'pages/about'
   end
 
   get 'blog' do
