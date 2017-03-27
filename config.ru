@@ -1,7 +1,11 @@
-require './config/environment'
+require_relative './config/environment'
 
-get '/' do
-  "Hello World"
+get '/about' do
+  "About me"
+end
+
+get '/contact' do
+  "Contact information below"
 end
 
 run Sinatra::Application
