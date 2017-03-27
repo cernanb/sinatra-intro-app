@@ -5,4 +5,3 @@ class RandomController < ApplicationController
   end
 
 end
-
