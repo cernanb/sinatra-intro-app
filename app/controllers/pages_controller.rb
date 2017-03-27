@@ -1,15 +1,15 @@
 class PagesController < ApplicationController
 
   get '/about' do
-    "About me"
+    erb :'pages/about'
   end
 
   get '/contact' do
-    "Contact information below"
+    erb :'pages/contact'
   end
 
   get '/blog' do
-    "My Posts"
+    erb :'pages/blog'
   end
 
 end

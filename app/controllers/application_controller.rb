@@ -2,7 +2,7 @@ class ApplicationController < Sinatra::Base
   set :views, Proc.new{File.join(root, '../views')}
 
   get '/' do
-    "Hello world"
+    erb :home
   end
 
 end
