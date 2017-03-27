@@ -1,4 +1,4 @@
 require './config/environment'
 
-use RandomController
+use PagesController
 run ApplicationController
