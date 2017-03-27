@@ -1,7 +1,11 @@
 require './config/environment'
 
-get '/' do
-  "Hello World"
+get '/about' do
+  "About me"
+end
+
+get '/contact' do
+  "Contact Information Below"
 end
 
 run Sinatra::Application
