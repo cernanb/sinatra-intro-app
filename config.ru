@@ -1,7 +1,5 @@
-require './config/environment'
+require_relative './config/environment'
 
-get '/' do
-  "Hello World"
-end
 
-run Sinatra::Application
+use PagesController
+run ApplicationController
